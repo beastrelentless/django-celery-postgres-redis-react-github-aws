@@ -7,7 +7,6 @@ ENV PYTHONUNBUFFERED 1
 
 # install psycopg2 dependencies
 RUN apt-get update \
-&& apt-get install gcc postgresql postgresql-contrib libpq-dev python3-dev curl netcat zsh git -y \
 && apt-get clean
 
 # set work directory
